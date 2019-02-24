@@ -1,0 +1,19 @@
+.tag{
+    position:absolute;
+    top:4px;
+    left:0px;
+    z-index: 99;
+    text-align:center;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tag-1{
+    @include back-color($green);
+}
+.tag-2{
+    @include back-color($orange);
+}
+.tag-3{
+    @include back-color(#C49A6c);
+}
